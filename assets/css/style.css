@@ -1,0 +1,180 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+</style>
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+ 
+  
+}
+
+body {
+   font-family: Barlow;
+    color: black
+  }
+
+  h2 {
+     font-family: : Barlow;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     color:blue;
+  }
+
+  #logo {
+      float: left;
+      font-size: 280%;
+  }
+
+  #menu {
+      font-size: 110%;
+      list-style-type: none;
+      letter-spacing:4px;
+  }
+
+  #logo, #menu {
+      line-height: 75px;  
+
+  }
+
+  #menu li {
+      float: right;
+      margin-right: 30px;
+  }
+
+  #menu a {
+      text-decoration: none;
+      color: inherit;
+  }
+
+  #menu a:hover {
+      border-bottom: 1px solid red;
+  }
+
+  .active {
+      border-bottom: 1px solid red;
+  }
+
+  #hero-image {
+        height:300px;
+        width: 100%;
+        background: url("https://scontent.fzgh1-1.fna.fbcdn.net/v/t31.0-8/13305079_10156940951400655_3306086734858057835_o.jpg?_nc_cat=102&_nc_sid=174925&_nc_ohc=8bkKrXzRjCcAX8HXDal&_nc_ht=scontent.fzgh1-1.fna&oh=88ac9cd1595554fd7bc144e54409d453&oe=5F9C1323") no-repeat center center
+  }
+
+  #hero-outer {
+      height:600px;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+  }
+
+  #cover-text, cover-text h2 {
+      color: white;
+  }
+
+  #cover-text {
+      font-size: 130%;
+      font-family: Barlow
+      text-transform: uppercase;
+      letter-spacing: 4px
+
+      width: 300px; 
+      height: 200px;
+
+      padding-top: 40px;
+      padding-left: 10px;
+
+      background-color: rgba(241, 109, 107, .7);
+
+      bottom: 30px;
+      right: 150px;
+
+      postion: absolute;
+  }
+
+  #club-ethos {
+       height: 600px;
+
+  }
+
+  #left-about {
+      padding-top: 30px;
+      width: 33%;
+      float: left;
+      
+
+  }
+
+  #right-about {
+      padding-top: 30px;
+      width: 33%;
+      float: right;
+     
+  }
+
+  #center-about {
+      width: 33%;
+      margin: 0 auto; 
+      
+  }
+
+  hr{
+      border-top: 1px solid #777777;
+      width: 100%;
+      margin: 5px 0;
+  }
+
+  .left-about-heading {
+      width: 50%;
+      float: right;
+      line-height: 20px;
+      clear: both;
+      margin-bottom: 50px;
+  }
+
+  .right-about-heading {
+      width: 50%;
+      float: left;
+      line-height: 20px;
+      clear: both;
+      margin-bottom: 50px;
+}
+
+  .right-about-heading h2 {
+      text-align: right;
+  }
+
+
+  .right-about-heading p {
+      text-align: right;
+  }
+
+
+  #welcome {
+      margin: 20px 0;
+      text-align: center;
+      font-size: 280%;
+  }
+
+  #circle-container {
+      width: 300px;
+      height: 300px;
+      padding: 30px;
+      border-style: solid;
+      border-color: rgb(167, 45, 45);
+      border-width: 10px;
+      border-radius: 50%;
+      margin: 0 auto;
+  }
+
+   #circle-cover-bg {
+      background: url("https://scontent.fzgh1-1.fna.fbcdn.net/v/t1.0-9/10698459_10154685128970655_7831760185379467522_n.jpg?_nc_cat=103&_nc_sid=174925&_nc_ohc=yInx3AEaGrwAX_NX9xg&_nc_ht=scontent.fzgh1-1.fna&oh=6736976d561b973fdb569c28392a1786&oe=5F9CCA05") no-repeat center center;
+      height: 100%;
+      border-radius: 50%;
+   }
+
+
+  .copyright-text {
+    font-size: var(--base-font-size);
+  }
